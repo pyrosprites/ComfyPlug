@@ -1,0 +1,18 @@
+name: ComfyPlug
+loadbefore:
+  - minecraft
+  - Essentials
+version: '${project.version}'
+main: cplug.cplug.Cplug
+api-version: 1.19
+authors: [ PyroPrince ]
+description: Made for pixelboop.net/pyroserver
+website: pixelboop.net
+commands:
+  plugins:
+    aliases:
+      - pl
+      - plugins
+      - plug
+      - plugs
+    description: View all the server plugins
